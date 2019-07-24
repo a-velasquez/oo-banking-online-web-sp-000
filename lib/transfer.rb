@@ -1,5 +1,5 @@
 class Transfer
-  attr_accessor :sender, :receiver, :amount, :status, :count
+  attr_accessor :sender, :receiver, :amount, :status
 
   def initialize(sender, receiver, amount)
     @sender = sender
@@ -33,6 +33,5 @@ class Transfer
       @status = "reversed"
     end
   end
-  
   
 end
